@@ -4,8 +4,6 @@
 # This script loads the trained Ridge Regression model from MLflow tracking
 # and uses it to make predictions on a sample input from the Diabetes dataset.
 #
-# Must be run AFTER linear_regression.py has been executed at least once.
-# =============================================================================
 
 import mlflow
 import mlflow.pyfunc
